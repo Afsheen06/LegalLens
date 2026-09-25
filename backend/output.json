@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "filename": "test.docx",
+  "fileType": "docx",
+  "characterCount": 25,
+  "analysis": {
+    "summary": "The provided text contains only the phrase 'Walking on imported air' and does not include any legal terms, context, or substantive contract provisions.",
+    "importantClauses": [
+      "None present in the provided document text."
+    ],
+    "obligations": [
+      "None present in the provided document text."
+    ],
+    "deadlines": [
+      "None present in the provided document text."
+    ],
+    "areasToReview": [
+      "The provided text is incomplete and lacks legal substance; the full text or actual agreement context needs to be reviewed."
+    ]
+  }
+}
