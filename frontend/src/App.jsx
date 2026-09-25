@@ -44,7 +44,7 @@ function App() {
     formData.append('document', selectedFile);
 
     try {
-      const response = await fetch('http://localhost:3000/api/analyze', {
+      const response = await fetch('https://legallens-backend-chzk.onrender.com/api/analyze', {
         method: 'POST',
         body: formData
       });
@@ -89,8 +89,8 @@ function App() {
     formData.append('documentB', compareFiles.documentB);
 
     try {
-      const response = await fetch('http://localhost:3000/api/compare', {
-        method: 'POST',
+const response = await fetch('https://legallens-backend-chzk.onrender.com/api/compare', {
+      method: 'POST',
         body: formData
       });
       const data = await response.json();
@@ -128,8 +128,8 @@ function App() {
     formData.append('question', askQuestion.trim());
 
     try {
-      const response = await fetch('http://localhost:3000/api/ask', {
-        method: 'POST',
+const response = await fetch('https://legallens-backend-chzk.onrender.com/api/ask', {
+      method: 'POST',
         body: formData
       });
       const data = await response.json();
